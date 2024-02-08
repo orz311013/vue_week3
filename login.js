@@ -29,7 +29,7 @@ createApp({
                     // https://developer.mozilla.org/zh-CN/docs/Web/API/Document/cookie
                     //token、expired 存入到cookie
                     //token 每次登入都會不同
-                    window.location = './week3.html';
+                    window.location = 'week3.html';
                     //成功後 跳轉到index.html
                 })
                 .catch((err) => {
